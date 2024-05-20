@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicación de Nuestro Local Comercial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            width: 100%;
+        }
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            margin: 2rem 0;
+            padding: 1rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+        }
+        .map-container {
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            position: relative;
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Local</h1>
+    </header>
+    <div class="container">
+        <h2>Ubicación del local:</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0195247550064!2d-122.41941508468155!3d37.7749297797597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064dfc2b9f9%3A0xf5a2c3d7b4f2d1e7!2sSan%20Francisco%2C%20CA%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1621340242123!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <h2>Audio: </h2>
+        <audio controls src="Y2meta.app - Por Dios hacelo Cuevas 😐 (128 kbps).mp3" type="audio"></audio>
+    </div>
+    <footer>
+        <p>&copy; 2024 Nombre de Nuestro Local Comercial. Todos los derechos reservados.</p>
+    <!--Footer suele ser usado para mostrar los derechos de autor-->
+    <!--Copy representa el simbolo de derechos de autor-->
+    </footer>
+</body>
+</html>
